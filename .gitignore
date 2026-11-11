@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.class
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Raw dataset files (keep only small sample)
+data/*.csv
+!data/sample_test_flows.csv
+data/*.zip
+
+# OS files
+.DS_Store
+Thumbs.db
