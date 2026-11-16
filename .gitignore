@@ -9,9 +9,9 @@ env/
 # Jupyter
 .ipynb_checkpoints/
 
-# Raw dataset files (keep only small sample)
+# Raw dataset files (keep small sample CSVs for testing)
 data/*.csv
-!data/sample_test_flows.csv
+!data/0*.csv
 data/*.zip
 
 # OS files
