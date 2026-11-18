@@ -11,7 +11,7 @@ env/
 
 # Raw dataset files (keep small sample CSVs for testing)
 data/*.csv
-!data/0*.csv
+!data/*.csv
 data/*.zip
 
 # OS files
